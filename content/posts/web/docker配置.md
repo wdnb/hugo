@@ -4,7 +4,7 @@ date: 2020-07-25 16:01:22
 tags:
   - docker
 categories:
-  - Software
+  - Web
 ---
 ## linux安装docker
 
