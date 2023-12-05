@@ -13,15 +13,15 @@ categories:
 前几日闲的蛋疼想把blog的文章拉到本地做个备份，因为本地的文章之前被删了，
 然而采用bitcron提供的MarkEditor将文章拉回本地时却只拉回了这种jb玩意儿
 
-![](从bitcron连夜逃回hexo/ME1.png)
+![](ME1.png)
 
-![](从bitcron连夜逃回hexo/ME2.png)
+![](ME2.png)
 
 当时我心里就咯噔一下，得，我特么遇到bug了。这种手工作坊的产品出bug我是丝毫都不奇怪
 好吧 那我就换个方式拉文件，用将文件同步到dropbox上
 这次我又碰到了这个
 
-![](从bitcron连夜逃回hexo/DB.png)
+![](DB.png)
 是的，真刺激，所有文章都变成了空白文件 只有文件名了。
 
 于是乎我本能的将dropbox的空白文章删除
