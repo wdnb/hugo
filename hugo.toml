@@ -165,11 +165,11 @@ hasCJKLanguage = false
         url = "/tags"
         weight = 5
         pre = "<i class='fa fa-tags'></i>"        
-    [[menus.main]]
-        name = "About"
-        url = "/about"
-        weight = 6
-        pre = "<i class='fa fa-info-circle'></i>"
+    #[[menus.main]]
+    #    name = "About"
+    #    url = "/about"
+    #    weight = 6
+    #    pre = "<i class='fa fa-info-circle'></i>"
 
     # social, maxum 6
     # 作者卡片社交链接，最多6个
@@ -178,11 +178,11 @@ hasCJKLanguage = false
         url = "https://github.com/wdnb"
         pre = "<i class='fa fa-github'></i>"
         weight = 1
-    [[menus.social]]
-        name = "YouTube"
-        url = "https://www.youtube.com"
-        pre = "<i class='fa fa-youtube'></i>"
-        weight = 2
+    #[[menus.social]]
+    #    name = "YouTube"
+    #    url = "https://www.youtube.com"
+    #    pre = "<i class='fa fa-youtube'></i>"
+    #    weight = 2
 
     # sponsor, maxum 3
     # 赞赏，最多支持3个
