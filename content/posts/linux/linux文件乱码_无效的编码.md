@@ -2,9 +2,9 @@
 title: linux文件乱码_无效的编码
 date: 2015-06-13 19:18:52
 tags:
-  - linux
+  - command
 categories:
-  - Manual
+  - Linux
 ---
     yum install convmv
 

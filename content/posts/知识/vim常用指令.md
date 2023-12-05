@@ -2,9 +2,10 @@
 title: vim常用指令
 date: 2015-06-13 19:19:15
 tags:
+  - command
   - vim
 categories:
-  - Command
+  - Software
 ---
 vim 批量替换
 

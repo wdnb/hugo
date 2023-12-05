@@ -2,10 +2,10 @@
 date: 2016-07-26 11:16:00
 status: public
 tags:
-  - linux
+  - sendmail
 title: linux下sendmail邮件发送提示stat=Deferred
 categories:
-  - Manual
+  - Linux
 ---
 
 

@@ -4,6 +4,7 @@ date: 2020-07-18 22:37:22
 tags:
   - gitlab
   - 树莓派
+  - hexo
 categories:
   - DevOps
 ---

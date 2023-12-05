@@ -2,10 +2,10 @@
 date: 2016-09-01 14:36:00
 status: public
 tags:
-  - linux
+  - passwd
 title: etc passwd文件解释
 categories:
-  - Manual
+  - Linux
 ---
 
 `cat /etc/passwd`

@@ -2,10 +2,10 @@
 date: 2015-06-13 19:11:00
 status: public
 tags:
-  - git
+  - command
 title: git指令
 categories:
-  - Command
+  - Git
 ---
 获取github上的项目
 
@@ -65,11 +65,11 @@ git add -A 和 git add . 的区别
 
 Git Version 1.x: 
 
-![](/git指令/git1.jpg)
+![](git1.jpg)
 
 Git Version 2.x: 
 
-![](/git指令/git2.jpg)
+![](git2.jpg)
 
 
 ## 查看远程分支

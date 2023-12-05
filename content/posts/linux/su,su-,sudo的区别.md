@@ -2,10 +2,10 @@
 date: 2016-02-03 16:06:00
 status: public
 tags:
-  - linux
+  - command
 title: su,su -,sudo的区别
 categories:
-  - Manual
+  - Linux
 ---
 
 解析su,su -,sudo的区别

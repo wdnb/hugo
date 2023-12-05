@@ -2,9 +2,11 @@
 title: centos iptables firewalld 开放端口
 date: 2017-03-03 18:57:22
 tags:
-  - linux
+  - centos
+  - iptables
+  - firewalld
 categories:
-  - Command
+  - Linux
 ---
 
 # centos6.X

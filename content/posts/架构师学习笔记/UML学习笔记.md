@@ -1,8 +1,7 @@
 ---
-title: UML学习笔记
+title: 
 date: 2020-09-20 00:37:22
 tags:
-  - 学习笔记
   - UML
 categories:
   - Manual

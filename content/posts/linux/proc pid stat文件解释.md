@@ -2,10 +2,10 @@
 date: 2016-09-01 17:47:00
 status: public
 tags:
-  - linux
+  - command
 title: " proc pid stat文件解释"
 categories:
-  - Manual
+  - Linux
 ---
 
  /proc/pid/stat

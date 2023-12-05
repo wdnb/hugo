@@ -2,9 +2,9 @@
 title: linux配置ip及路由表
 date: 2019-03-02 22:14:46
 tags:
-  - linux
+  - command
 categories:
-  - Command
+  - Linux
 ---
 
 centos7配置ip：  

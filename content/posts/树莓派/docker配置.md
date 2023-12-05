@@ -3,7 +3,6 @@ title: docker配置
 date: 2020-07-25 16:01:22
 tags:
   - docker
-  - 树莓派
 categories:
   - Software
 ---

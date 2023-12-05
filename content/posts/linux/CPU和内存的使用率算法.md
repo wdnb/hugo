@@ -2,10 +2,11 @@
 date: 2016-09-02 14:52:00
 status: public
 tags:
-  - linux
+  - cpu
+  - memory
 title: CPU和内存的使用率算法
 categories:
-  - Command
+  - Linux
 ---
 [Linux平台Cpu使用率的计算](http://www.blogjava.net/fjzag/articles/317773.html)
 ## 总的Cpu使用率计算

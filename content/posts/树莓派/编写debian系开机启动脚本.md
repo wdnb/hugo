@@ -2,10 +2,10 @@
 title: 编写debian系开机启动脚本
 date: 2022-04-25 00:00:00
 tags:
-  - linux
   - 树莓派
+  - debian
 categories:
-  - Command
+  - Linux
 ---
 
 ### 编写debian系开机启动脚本

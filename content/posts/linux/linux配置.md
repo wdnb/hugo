@@ -2,9 +2,9 @@
 title: linux配置
 date: 2020-07-28 23:40:22
 tags:
-  - linux
+  - command
 categories:
-  - Command
+  - Linux
 ---
 ## linux检测远程端口是否打开
 

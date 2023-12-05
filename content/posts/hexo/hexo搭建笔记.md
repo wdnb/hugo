@@ -5,7 +5,7 @@ tags:
   - hexo
 title: hexo搭建笔记
 categories:
-  - Manual
+  - Blog
 ---
 
 请先参考官方网站指导

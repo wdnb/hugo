@@ -2,10 +2,10 @@
 date: 2016-09-06 11:16:00
 status: public
 tags:
-  - linux
+  - command
 title: linux小技巧
 categories:
-  - Manual
+  - Linux
 ---
 
 ## ubuntu下unzip中文乱码

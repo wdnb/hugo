@@ -2,9 +2,9 @@
 title: linux常用指令
 date: 2015-06-13 19:08:42
 tags:
-  - linux
+  - command
 categories:
-  - Command
+  - Linux
 ---
 ## 查看所有安装的软件包
 

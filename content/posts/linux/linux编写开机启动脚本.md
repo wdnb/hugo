@@ -2,10 +2,10 @@
 date: 2016-09-14 15:23:00
 status: public
 tags:
-  - linux
+  - command
 title: linux编写开机启动脚本
 categories:
-  - Manual
+  - Linux
 ---
 
 编写shell脚本	

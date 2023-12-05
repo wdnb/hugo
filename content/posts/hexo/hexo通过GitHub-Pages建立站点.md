@@ -4,7 +4,7 @@ date: 2015-06-13 21:31:40
 tags:
   - hexo
 categories:
-  - Manual
+  - Blog
 ---
 ## 两种pages模式
 
