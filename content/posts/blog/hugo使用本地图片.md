@@ -1,6 +1,6 @@
 ---
 date: 2023-12-05 00:00:00
-title: hugo使用本地图片
+title: hugoS使用本地图片
 tags:
   - hugo
 categories:
@@ -16,7 +16,24 @@ categories:
 直接在文章目录下新建一个文件夹文件名要和你的文章名一样，图片丢进去，然后就是在markdown里直接输入图片名就行 不需要加上目录`![](image.png)`
 
 ## 注意的坑
-文章和目录的标题不要以大写字母开头 如果以大写字母开头将无法显示图片，估计是触发了golang的什么bug 暂时没兴趣研究
+文章和目录不要带大写字母 如果带大写字母开头将无法显示图片 因为浏览器访问的链接似乎会被强制转换为小写字母 这样就和图片的实际目录对不上了
+
+由于windows大小写不敏感如果你在windows里将文件加到git版本控制里并且已经推送了的话此时重命名文件将只能重命名本地文件 git里的文件名是不会改变的
+会导致本地能访问图片，使用GitHub Actions部署到GitHub Pages的时候依然无法查看图片的现象
+解决方法：进入文件所处目录 使用git命令重命名文件名然后commit提交即可
+
+```bash
+ git mv Hugo使用本地图片.md tmp
+ git mv tmp hugo使用本地图片
+ 
+ git mv Hugo使用本地图片 tmp
+ git mv tmp hugo使用本地图片
+
+ git add .
+ git commit -m 'post'
+ git push
+```
+
 **不要和以下截图以大写H开头，要用小写h开头**
 
 ![](image.png)
