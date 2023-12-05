@@ -60,7 +60,7 @@ hasCJKLanguage = false
         homeTitleFontSize = 40
         # content in home top image, support Markdown
         # 主页内容，支持Markdown语法
-        homeContent = "Hello World"
+        homeContent = "Hello, World!"
         # font size(px)
         # 主页内容字号（单位：px）
         homeContentFontSize = 20
