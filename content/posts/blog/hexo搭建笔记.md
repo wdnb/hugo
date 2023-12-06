@@ -1,6 +1,5 @@
 ---
 date: 2015-06-13 20:12:00
-status: public
 tags:
   - hexo
 title: hexo搭建笔记

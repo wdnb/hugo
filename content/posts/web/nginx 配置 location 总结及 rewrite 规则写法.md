@@ -1,6 +1,5 @@
 ---
 date: 2016-02-03 15:54:00
-status: public
 tags:
   - nginx
 title: nginx 配置 location 总结及 rewrite 规则写法

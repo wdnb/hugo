@@ -1,10 +1,11 @@
 ---
-title: 
+title: UML学习笔记
 date: 2020-09-20 00:37:22
 tags:
   - UML
 categories:
   - Manual
+draft: "true"
 ---
 
 ## 4+1架构视图方法

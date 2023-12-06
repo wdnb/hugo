@@ -1,6 +1,5 @@
 ---
 date: 2016-02-03 16:06:00
-status: public
 tags:
   - command
 title: su,su -,sudo的区别

@@ -1,6 +1,5 @@
 ---
 date: 2016-09-02 14:52:00
-status: public
 tags:
   - cpu
   - memory

@@ -1,6 +1,5 @@
 ---
 date: 2016-09-14 15:23:00
-status: public
 tags:
   - command
 title: linux编写开机启动脚本

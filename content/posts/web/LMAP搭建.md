@@ -1,6 +1,5 @@
 ---
 date: 2015-06-13 19:15:00
-status: public
 tags:
   - php
 title: LMAP搭建

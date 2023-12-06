@@ -1,6 +1,5 @@
 ---
 date: 2016-09-01 17:47:00
-status: public
 tags:
   - command
 title: " proc pid stat文件解释"

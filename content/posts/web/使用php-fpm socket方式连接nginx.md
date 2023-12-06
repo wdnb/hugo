@@ -1,6 +1,5 @@
 ---
 date: 2016-02-20 16:28:00
-status: public
 tags:
   - php
 title: 使用php-fpm socket方式连接nginx

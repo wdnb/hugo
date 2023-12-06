@@ -1,6 +1,5 @@
 ---
 date: 2015-06-13 19:11:00
-status: public
 tags:
   - command
 title: git指令

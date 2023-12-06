@@ -1,6 +1,5 @@
 ---
 date: 2016-09-03 15:23:00
-status: public
 tags:
   - command
 title: linux添加一个用户并且让用户获得root权限

@@ -1,6 +1,5 @@
 ---
 date: 2015-06-13 19:16:00
-status: public
 tags:
   - ftp
 title: sftp服务器配置

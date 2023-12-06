@@ -1,6 +1,5 @@
 ---
 date: 2016-09-03 15:20:00
-status: public
 tags:
   - vagrant
 title: vagrant

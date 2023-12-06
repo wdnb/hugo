@@ -1,6 +1,5 @@
 ---
 date: 2016-09-06 11:16:00
-status: public
 tags:
   - command
 title: linux小技巧

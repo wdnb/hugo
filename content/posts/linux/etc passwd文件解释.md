@@ -1,6 +1,5 @@
 ---
 date: 2016-09-01 14:36:00
-status: public
 tags:
   - passwd
 title: etc passwd文件解释

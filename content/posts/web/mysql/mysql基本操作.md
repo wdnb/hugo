@@ -1,6 +1,5 @@
 ---
 date: 2015-06-13 19:16:00
-status: public
 tags:
   - mysql
 title: mysql基本操作

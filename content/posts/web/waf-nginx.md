@@ -1,6 +1,5 @@
 ---
 date: 2016-02-20 16:30:00
-status: public
 tags:
   - nginx
 title: waf-nginx

@@ -1,6 +1,5 @@
 ---
 date: 2015-06-13 20:59:00
-status: public
 tags:
   - ssh
 title: ssh密钥

@@ -1,5 +1,4 @@
 ---
-status: public
 tags:
   - gcc
 title: 自行编译GCC

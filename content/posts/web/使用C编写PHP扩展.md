@@ -1,6 +1,5 @@
 ---
 date: 2016-02-27 11:27:00
-status: public
 tags:
   - php
 title: 使用C编写PHP扩展
