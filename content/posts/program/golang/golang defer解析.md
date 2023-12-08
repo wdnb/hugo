@@ -1,12 +1,13 @@
 ---
 title: golang defer解析
-date: 2023-12-08T15:43:00
+date: 2023-12-08T16:53:03+08:00
 tags:
   - golang
 categories:
-  - Programe
+  - Program
 ---
-# 定义
+# golang defer解析
+## 定义
 
 defer 是 Go 语言提供的一种用于注册延迟调用的机制：让函数或语句可以在当前函数执行完毕后执行。
 
@@ -15,13 +16,13 @@ defer 是 Go 语言提供的一种用于注册延迟调用的机制：让函数�
 3. 如果 defer 执行的函数为 nil, 那么会在最终调用函数的产生 panic。
 
 **不能在defer里面返回值**
-## 什么情况下会调用 defer 延迟过的函数呢？
+### 什么情况下会调用 defer 延迟过的函数呢？
 
 1. 当函数执行了 `return` 语句后
 2. 当函数处于 `panicing` 状态，也就是程序中 `panic` 回溯上来到当前函数范围内时
 
-# 进阶
-## defer return拆解
+## 进阶
+### defer return拆解
 
 - defer在return之前执行 但return xxx这一条语句并不是一条原子指令
 - 函数返回的过程是这样的：先给返回值赋值，然后调用defer表达式，最后才是返回到调用函数中。
@@ -88,7 +89,7 @@ func defer6() (r int) {
 }
 ```
 
-## defer 函数对外部变量的引用
+### defer 函数对外部变量的引用
 
 在 defer 函数定义时，对外部变量的引用是有两种方式的，分别是作为函数参数和作为闭包引用。
 

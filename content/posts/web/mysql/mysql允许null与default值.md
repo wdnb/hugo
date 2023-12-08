@@ -6,7 +6,8 @@ tags:
 categories:
   - Web
 ---
-## Mysql 允许null 与 default值
+# Mysql 允许null 与 default值
+
 分为下面4种情况：
 - 允许null， 指定default值。
 - 允许null， 不指定default，这个时候可认为default值就是null

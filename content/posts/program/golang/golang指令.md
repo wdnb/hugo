@@ -1,11 +1,12 @@
 ---
 title: golang指令
-date: 2023-12-08T15:43:00
+date: 2023-12-08T16:53:03+08:00
 tags:
   - golang
 categories:
-  - Programe
+  - Program
 ---
+# golang指令
 ## 打印
 - 打印变量类型
 ```go

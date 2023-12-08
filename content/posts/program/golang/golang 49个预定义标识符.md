@@ -1,10 +1,10 @@
 ---
 title: golang 49个预定义标识符
-date: 2023-12-08T15:43:00
+date: 2023-12-08T16:53:03+08:00
 tags:
   - golang
 categories:
-  - Programe
+  - Program
 ---
 
  [Go's predeclared identifier](https://pkg.go.dev/builtin)

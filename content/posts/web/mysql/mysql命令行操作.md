@@ -2,11 +2,11 @@
 date: 2015-06-13 19:16:00
 tags:
   - mysql
-title: mysql基本操作
+title: mysql命令行操作
 categories:
   - Web
 ---
-
+# mysql命令行操作
 当向表中插入字符串值（以及一些数据值时）。必须使用引号，否则MySQL认为它们是字段名：
 自增主键的值设为NULL或者‘’；
 包含引用标志的值需要在前面加上反斜线（转义符），不过数值不需要加引号：
@@ -28,7 +28,7 @@ categories:
 4:查询表中的记录： 
 
     select * from 表名
-##修改操作
+## 修改操作
 1:修改表字段名称
 
     alter table T_VMD_VERSION change logid log_id int UNSIGNED NOT NULL
@@ -52,7 +52,7 @@ categories:
     ALTER TABLE TABLE_NAME ADD FIELDNAME TINYINT(1) UNSIGNED NOT NULL;
     // ALTER TABLE T_USER_MESSAGE ADD message_id int UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY;
 
-##新建操作
+## 新建操作
 1:建库： 
 
     create database 库名; 
@@ -63,7 +63,7 @@ categories:
 
     use 库名； 
     create table 表名 (字段设定列表)
-##删除操作
+## 删除操作
 1:删库和删表: 
 
     drop database 库名; 
@@ -74,7 +74,7 @@ categories:
     DELETE FROM table1
     TRUNCATE TABLE table1
 如果DELETE不加WHERE子句，那么它和TRUNCATE TABLE是一样的，但它们有一点不同，那就是DELETE可以返回被删除的记录数，而TRUNCATE TABLE返回的是0。
-##数据导入导出
+## 数据导入导出
 1、导入导出数据库表：
     登陆mysql，选择数据库后选择表导出 
     导出表
@@ -91,7 +91,7 @@ categories:
 导入数据库 (需要先建好数据库,选中数据库(use database) )
 
     source /home/abc/abc.sql;
-##用户操作
+## 用户操作
 1:创建用户
 
     insert into mysql.user(Host,User,Password) values('localhost','waf_alarm',password('waf_alarm'));

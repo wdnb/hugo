@@ -1,13 +1,14 @@
 ---
-title: 编写debian系开机启动脚本
-date: 2022-04-25 00:00:00
+title: debian开机启动脚本编写
+date: 2022-04-25T00:00:00+08:00
 tags:
   - debian
 categories:
   - Linux
 ---
+# debian开机启动脚本编写
 
-### 编写debian系开机启动脚本
+## 将所需要开启启动的指令填入脚本
 
 ```bash
 #!/bin/bash
@@ -19,7 +20,7 @@ cd /home/pi/docker/
 docker-compose -f docker-compose.yml up -d
 ```
 
-上传启动脚本到 /etc/init.d 目录下
+### 上传启动脚本到 /etc/init.d 目录下
 ```bash
 cd /etc/init.d
 ```
@@ -27,12 +28,12 @@ cd /etc/init.d
 chmod 755 dockerup
 ```
 
-# 设置开机自启
+## 设置开机自启
 ```bash
 sudo update-rc.d dockerup defaults
 ```
 
-# 删除开机自启
+## 删除开机自启
 ```bash
 sudo update-rc.d -f dockerup remove
 ```

@@ -17,7 +17,7 @@ categories:
 默认的是https://127.0.0.1:6443 可以选择把端口映射到外网
 
 ## 获取Cluster’s CA certificate
-```
+```bash
 kubectl config view --raw \
 -o=jsonpath='{.clusters[0].cluster.certificate-authority-data}' \
 | base64 --decode
@@ -25,7 +25,7 @@ kubectl config view --raw \
 ## 获取Service token
 
 ### 创建一个 ServiceAccount，并为其提供集群管理角色
-```
+```bash
 cat <<EOF | kubectl apply -f -
 apiVersion: v1
 kind: ServiceAccount
@@ -48,10 +48,17 @@ subjects:
 EOF
 ```
 ### 往环境变量添加 SECRET
-`SECRET=$(kubectl -n kube-system get secret | grep gitlab-admin | awk '{print $1}')`
+```bash 
+SECRET=$(kubectl -n kube-system get secret | grep gitlab-admin | awk '{print $1}')
+```
 
 ### 往环境变量添加 TOKEN 并且 提取与 SECRET 关联的 JWT 令牌:
-`TOKEN=$(kubectl -n kube-system get secret $SECRET -o jsonpath='{.data.token}' | base64 --decode)`
-`echo $TOKEN`
+```bash
+TOKEN=$(kubectl -n kube-system get secret $SECRET -o jsonpath='{.data.token}' | base64 --decode)
+```
+
+```bash 
+echo $TOKEN
+```
 
 ## 现在我们使用所有的信息并填写 GitLab 的 Add existing cluster 表单

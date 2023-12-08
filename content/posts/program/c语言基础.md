@@ -4,7 +4,7 @@ date: 2015-06-13 18:57:22
 tags:
   - c
 categories:
-  - Programe
+  - Program
 ---
 ## 指针数组结合性
 	int(*p)[4];------ptr为指向含4个元素的一维整形数组的指针变量（是指针）

@@ -7,7 +7,7 @@ tags:
 categories:
   - DevOps
 ---
-## 前言
+# 前言
 
 想学习了解一下ci/cd，但是windows下的gitlab和postgresql的volumes没法直接映射到宿主机，干脆就弄了个树莓派玩玩
 
@@ -42,7 +42,10 @@ gitlab,gitlab-runner官方docker镜像没有arm版这里用的是第三方编译
 ## 配置
 
 ### 启动
+```bash
 docker-composer up
+```
+
 
 ### 获取Runner的URL和token
 这里需要先进入gitlab的管理中心获取Runner的URL和token
@@ -53,14 +56,14 @@ docker-composer up
 
 ### 注册runner
 gitlab-runner运行会提示：
-ERROR: Failed to load config stat /etc/gitlab-runner/config.toml: no such fi
+`ERROR: Failed to load config stat /etc/gitlab-runner/config.toml: no such fi`
 这是因为还没注册注册runner
 官方runner注册文档
 >https://docs.gitlab.com/runner/register/
 
 根据镜像volume挂载方式的不同 local system volume mounts和Docker volume mounts 注册指令有一点点区别，我这里用的是local system volume mounts.
 PATH为docker映射到宿主机的gitlab-runner配置目录（/home/pi/...），指令执行完成后生成的config.toml会存放到这个目录下，填入上面获取的url和registration-token进行注册
-```
+```bash
   docker run --rm -it -v ~/PATH/gitlab/runner:/etc/gitlab-runner  gitlab/gitlab-runner register \
   --non-interactive \
   --executor "docker" \
@@ -74,8 +77,13 @@ PATH为docker映射到宿主机的gitlab-runner配置目录（/home/pi/...），
   --access-level="not_protected"
 ```
 ## 查看注册信息
-`sudo cat /home/pi/docker/data/gitlab/runner/config.toml`
+```bash
+sudo cat /home/pi/docker/data/gitlab/runner/config.toml
+```
+
 
 ## gitlab配置
 安装完毕后还有一些配置的调优参考这里
-> https://blog.jbface.com/posts/d2cdc29f.html
+
+[gitlab配置](/posts/devops/gitlab/gitlab配置)
+

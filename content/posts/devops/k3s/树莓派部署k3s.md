@@ -22,16 +22,19 @@ helm: v3.2.4
 
 ## 配置
 配置文件会被写到 /etc/systemd/system 下
-`sudo vim /etc/systemd/system/k3s.service`
+```bash
+sudo vim /etc/systemd/system/k3s.service
+```
 
 ## 查看日志
 
-`tail -f /var/log/syslog`
+```bash
+tail -f /var/log/syslog
+```
 
 ## 前期工作和错误处理
 
->https://blog.jbface.com/posts/752b168e.html
-
+[k3s配置](/posts/devops/k3s/k3s配置)
 ## k3s部署官方文档
 >https://rancher2.docs.rancher.cn/docs/installation/k8s-install/_index
 
@@ -41,7 +44,7 @@ helm: v3.2.4
 官方文档
 >https://docs.rancher.cn/k3s/installation/datastore.html#_2-2-mysql
 
-```
+```bash
 curl -sfL https://docs.rancher.cn/k3s/k3s-install.sh | INSTALL_K3S_MIRROR=cn sh -s - server \
 --datastore-endpoint="mysql://root:123456@tcp(127.0.0.1:3306)/kubernetes"
 ```
@@ -51,7 +54,7 @@ curl -sfL https://docs.rancher.cn/k3s/k3s-install.sh | INSTALL_K3S_MIRROR=cn sh 
 
 ### 添加master节点配置外网ip和证书ip和数据库
 
-```
+```bash
 curl -sfL https://docs.rancher.cn/k3s/k3s-install.sh | INSTALL_K3S_MIRROR=cn sh -s - server --node-external-ip=xxx.xxx.xxx.xxx \
 --tls-san=xxx.xxx.xxx.xxx \
 --datastore-endpoint="mysql://root:password@tcp(xxx.xxx.xxx.xxx:3306)/kubernetes"
@@ -59,15 +62,19 @@ curl -sfL https://docs.rancher.cn/k3s/k3s-install.sh | INSTALL_K3S_MIRROR=cn sh 
 
 ### 检测是否有EXTERNAL-IP
 
-`kubectl get nodes -o wide`
+```bash
+kubectl get nodes -o wide
+```
 
 ### 获取NODE_TOKEN
 
-`cat /var/lib/rancher/k3s/server/node-token`
+```bash
+cat /var/lib/rancher/k3s/server/node-token
+```
 
 ### 添加slave节点并且连接到外网master
 
-```
+```bash
 curl -sfL https://docs.rancher.cn/k3s/k3s-install.sh | INSTALL_K3S_MIRROR=cn sh -s - agent \
 --server https://xxx.xxx.xxx.xxx:6443 --token NODE_TOKEN
 ```

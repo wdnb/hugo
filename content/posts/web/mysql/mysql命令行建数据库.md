@@ -2,11 +2,11 @@
 date: 2015-06-13 19:15:00
 tags:
   - mysql
-title: mysql建数据库
+title: mysql命令行建数据库
 categories:
   - Web
 ---
-
+# mysql命令行建数据库
 ## 新建用户
  
 登录MYSQL

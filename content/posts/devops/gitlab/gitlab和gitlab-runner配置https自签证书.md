@@ -7,12 +7,12 @@ tags:
 categories:
   - DevOps
 ---
-
+# gitlab和gitlab-runner配置https自签证书
 ## gitlab配置https
 
 ### 生成自签证书
 
-```
+```bash
 #秘钥脚本，将以下内容保存为shell脚本，然后运行
 #出现提示输入信息的地方输入信息，先输入域名然后4次证书密码，任意密码，四次保持一致。
 
@@ -54,16 +54,16 @@ echo "}"
 ```
 ### 生成证书后拷贝到宿主机配置目录
 
-```
+```bash
 cp domain.crt domain.key ~/PATH/data/gitlab/config/ssl
 
 ```
 ### gitlab https配置
 
-以下是与https有关的配置，添加在gitlab.rb里后运行`sudo docker exec -it 4fac53125f59 gitlab-ctl reconfigure`生效
-如果gitlab是运行在docker里的，也可以将配置放在docker-compose.yml里，重启容器生效。
 
-```
+以下是与https有关的配置，如果gitlab是运行在docker里的，也可以将配置放在docker-compose.yml里，重启容器生效。
+
+```bash
 external_url 'https://DOMAIN:9898/'
 nginx['listen_https'] = true
 nginx['listen_port'] = 443
@@ -71,10 +71,17 @@ nginx['redirect_http_to_https'] = true
 nginx['ssl_certificate'] = "/etc/gitlab/ssl/DOMAIN.crt"
 nginx['ssl_certificate_key'] = "/etc/gitlab/ssl/DOMAIN.key"
 ```
+添加在gitlab.rb里后运行以下指令读取配置
+```bash
+sudo docker exec -it 4fac53125f59 gitlab-ctl reconfigure
+```
 
 ### 配置可信证书
 
-将DOMAIN.crt证书添加到~/PATH/data/gitlab/config/gitlab/trusted-certs/目录并运行`sudo docker exec -it 4fac53125f59 gitlab-ctl reconfigure`。
+将DOMAIN.crt证书添加到~/PATH/data/gitlab/config/gitlab/trusted-certs/目录并运行
+```bash
+sudo docker exec -it 4fac53125f59 gitlab-ctl reconfigure
+```
 
 ## gitlab-runner配置https
 
@@ -90,7 +97,7 @@ nginx['ssl_certificate_key'] = "/etc/gitlab/ssl/DOMAIN.key"
 
 [x509: certificate signed by unknown authority官方解决办法](https://docs.gitlab.com/runner/configuration/tls-self-signed.html)
 
-```
+```bash
 docker run --rm -it -v ~/docker/data/gitlab/runner:/etc/gitlab-runner  gitlab/gitlab-runner register \
 --non-interactive \
 --tls-ca-file=/etc/gitlab-runner/DOMAIN.crt \

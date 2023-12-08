@@ -6,14 +6,18 @@ title: mariadb安装
 categories:
   - Web
 ---
-
+# mariadb安装
 ## 安装MySQL
 
-`sudo apt install mariadb-server`
+```bash 
+sudo apt install mariadb-server
+```
 
 ## 设置数据库
 
-`sudo mysql_secure_installation`
+```bash 
+sudo mysql_secure_installation
+```
 
 此时系统会询问你：Enter current password for root (enter for none): ,按回车（enter）键，因为第一次登陆是没有密码的。
 

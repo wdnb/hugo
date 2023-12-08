@@ -1,10 +1,10 @@
 ---
 title: golang 25个保留关键字
-date: 2023-12-08T15:43:00
+date: 2023-12-08T16:53:03+08:00
 tags:
   - golang
 categories:
-  - Programe
+  - Program
 ---
 |   |   |   |
 |---|---|---|
