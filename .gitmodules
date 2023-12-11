@@ -1,3 +1,6 @@
 [submodule "themes/NewBee"]
 	path = themes/NewBee
 	url = https://github.com/xioyito/NewBee.git
+[submodule "themes/hugo-theme-stack"]
+	path = themes/hugo-theme-stack
+	url = https://github.com/CaiJimmy/hugo-theme-stack/

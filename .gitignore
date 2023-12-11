@@ -1,3 +1,6 @@
-hugo.exe
+*.exe
 hugo_build.lock
+
+public
+themes
 resources

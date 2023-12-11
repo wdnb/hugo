@@ -135,11 +135,11 @@ git add .
 
 Git Version 1.x: 
 
-![](git1.jpg)
+![](img/git指令/git1.jpg)
 
 Git Version 2.x: 
 
-![](git2.jpg)
+![](img/git指令/git2.jpg)
 
 ## 检查当前文件状态
 ```bash

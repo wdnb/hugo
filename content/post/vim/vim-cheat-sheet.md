@@ -9,8 +9,8 @@ categories:
 
 [vim-cheat-sheet](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)
 
-![](vi-vim-cheat-sheet.gif)
+![](img/vim-cheat-sheet/vi-vim-cheat-sheet.gif)
 
 [vim-cheat-sheet-for-programmers](https://michael.peopleofhonoronly.com/vim/)
 
-![](vim_cheat_sheet_for_programmers_print.png)
+![](img/vim-cheat-sheet/vim_cheat_sheet_for_programmers_print.png)
