@@ -89,7 +89,7 @@ docker-compose up --force-recreate
 ```bash
 docker-compose stop
 ```
-## 常见报错
+## 常见问题
 ```text
 error getting credentials - err: exit status 1, out: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files
 ```

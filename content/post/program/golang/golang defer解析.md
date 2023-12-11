@@ -7,6 +7,7 @@ categories:
   - Program
 ---
 # golang defer解析
+
 ## 定义
 
 defer 是 Go 语言提供的一种用于注册延迟调用的机制：让函数或语句可以在当前函数执行完毕后执行。
