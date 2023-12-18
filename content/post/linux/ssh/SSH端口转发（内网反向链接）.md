@@ -4,7 +4,7 @@ date: 2015-06-13 19:13:26
 tags:
   - ssh
 categories:
-  - Manual
+  - Linux
 ---
 ## 开启端口
 

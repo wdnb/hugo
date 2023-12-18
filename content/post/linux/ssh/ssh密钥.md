@@ -4,7 +4,7 @@ tags:
   - ssh
 title: ssh密钥
 categories:
-  - Manual
+  - Linux
 ---
 ## 密钥生成
 
