@@ -2,7 +2,7 @@
 date: ‎2020‎-08-17T17:38:09+08:00
 tags:
   - hexo
-title: hexo搭建笔记
+title: hexo自动化部署配置
 categories:
   - Blog
 ---
