@@ -30,7 +30,7 @@ languages:
 services:
     # Change it to your Disqus shortname before using
     disqus:
-        shortname:
+        shortname: "wdnb"
     # GA Tracking ID
     googleAnalytics:
         id:
@@ -71,7 +71,7 @@ params:
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
-        enabled: true
+        enabled: false
         provider: disqus
 
         disqusjs:
