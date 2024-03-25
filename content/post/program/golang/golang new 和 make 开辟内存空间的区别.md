@@ -11,13 +11,13 @@ categories:
 
 ## 总结
 
-**1. new 函数**
+### new 函数
 `new` 函数用于为指定的类型分配一片零值内存,并返回指向这片内存的指针（指定类型的指针），它适用于任何类型的值,包括用户定义的类型和内置类型。
 
-**2. make 函数**
+### make 函数
 `make()` 函数用于创建 slice、map 和 channel，返回被初始化的（非零值）引用类型的实例
 
-**3.`new` 和 `make` 在内存分配 slice、map 和 channel 时的区别在于:**
+### `new` 和 `make` 在内存分配 slice、map 和 channel 时的区别
 
 1. **使用 `new`**:
     - `slice := new([]int)` 将分配一个新的 slice 指针,指向 `nil` 值的底层数组结构。
