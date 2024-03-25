@@ -1,12 +1,12 @@
 ---
-title: golang闭包
+title: golang 闭包
 date: 2023-12-08T16:53:03+08:00
 tags:
   - golang
 categories:
   - Program
 ---
-# golang闭包
+# golang 闭包
 ## 匿名函数定义
 未指定函数名的函数被称为匿名函数。
 ## Golang 匿名函数的三种声明方法
