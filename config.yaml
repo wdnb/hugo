@@ -12,12 +12,6 @@ languages:
         weight: 1
         params:
             description: First principle thinking
-    zh-cn:
-        languageName: 中文
-        title: Faceless Void
-        weight: 2
-        params:
-            description: First principle thinking
 
 # Change it to your Disqus shortname before using
 disqusShortname: hugo-theme-stack
