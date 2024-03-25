@@ -30,7 +30,7 @@ languages:
 services:
     # Change it to your Disqus shortname before using
     disqus:
-        shortname: "hugo-theme-stack"
+        shortname: "wdnb"
     # GA Tracking ID
     googleAnalytics:
         id:
@@ -75,7 +75,7 @@ params:
         provider: disqus
 
         disqusjs:
-            shortname: "wdnb"
+            shortname:
             apiUrl:
             apiKey:
             admin:
