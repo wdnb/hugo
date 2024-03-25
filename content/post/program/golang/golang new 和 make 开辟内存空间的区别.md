@@ -43,5 +43,7 @@ Back to allocation. The built-in function `make(T,` _args_`)` serves a purpo
 ## 参考资料
 
 [golang中new与make的区别](https://juejin.cn/post/7180326159027011639)
+
 [new](https://go.dev/doc/effective_go.html#allocation_new)
+
 [make](https://go.dev/doc/effective_go.html#allocation_make)
