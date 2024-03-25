@@ -1,23 +1,9 @@
 baseurl: https://blog.jbface.com/
 languageCode: en-us
 theme: hugo-theme-stack
-paginate: 5
+paginate: 10
 title: Faceless Void
 copyright: Reus
-
-languages:
-    en:
-        languageName: English
-        title: Faceless Void
-        weight: 1
-        params:
-            description: First principle thinking
-
-# Change it to your Disqus shortname before using
-disqusShortname: hugo-theme-stack
-
-# GA Tracking ID
-googleAnalytics:
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
@@ -26,6 +12,28 @@ DefaultContentLanguage: en
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
 hasCJKLanguage: false
+
+languages:
+    en:
+        languageName: English
+        title: Faceless Void
+        weight: 1
+        params:
+            description: First principle thinking
+    zh-cn:
+        languageName: 中文
+        title: Faceless Void
+        weight: 2
+        params:
+            description: First principle thinking
+
+services:
+    # Change it to your Disqus shortname before using
+    disqus:
+        shortname: "hugo-theme-stack"
+    # GA Tracking ID
+    googleAnalytics:
+        id:
 
 permalinks:
     post: /p/:slug/
@@ -36,7 +44,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon:  # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
+    favicon: # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
         since: 2020
@@ -63,11 +71,11 @@ params:
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
-        enabled: false
+        enabled: true
         provider: disqus
 
         disqusjs:
-            shortname:
+            shortname: "wdnb"
             apiUrl:
             apiKey:
             admin:
@@ -77,6 +85,12 @@ params:
             repo:
             issueTerm: pathname
             label:
+
+        beaudar:
+            repo:
+            issueTerm: pathname
+            label:
+            theme:        
 
         remark42:
             host:
