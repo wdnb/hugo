@@ -1,4 +1,4 @@
-baseurl: https://blog.zjzws.com/
+baseurl: https://zjzws.com/
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 10
