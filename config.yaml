@@ -30,7 +30,7 @@ languages:
 services:
     # Change it to your Disqus shortname before using
     disqus:
-        shortname: "wdnb"
+        shortname:
     # GA Tracking ID
     googleAnalytics:
         id:
