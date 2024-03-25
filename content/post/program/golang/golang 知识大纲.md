@@ -7,11 +7,6 @@ categories:
   - Program
 draft: "true"
 ---
-golang faq 
->https://learnku.com/go/wikis/38175
-
-golang 常见面试题
->https://zhuanlan.zhihu.com/p/471490292
 
 在 Golang 中，申明变量和分配内存是两个不同的概念。
 
@@ -98,9 +93,6 @@ if err := Ping(); err != nil {
 
 ## CSP
 
-参考资料
->https://zhuanlan.zhihu.com/p/313763247
-
 Communicating Sequential Process golang借用csp模型 process和channel这两个概念。process是在go语言上的表现就是 goroutine 是实际并发执行的实体，每个实体之间是通过channel通讯来实现数据共享。
 
 -   **Go协程goroutine: 是一种轻量线程，它不是操作系统的线程，而是将一个操作系统线程分段使用，通过调度器实现协作式调度。是一种绿色线程，微线程，它与Coroutine协程也有区别，能够在发现堵塞后启动新的微线程。**
@@ -125,14 +117,6 @@ chan T // 声明一个双向通道
 chan<- T // 声明一个只能用于发送的通道
 <-chan T // 声明一个只能用于接收的通道COPY
 ```
-
-### 参考资料
-#### [一文读懂什么是进程、线程、协程](https://www.cnblogs.com/Survivalist/p/11527949.html)
-
-#### [一文让你明白CPU上下文切换](https://zhuanlan.zhihu.com/p/52845869)
-
-####  [深入理解Linux的CPU上下文切换](https://cloud.tencent.com/developer/article/1897179)
-
 
 ### 如何才能确保自定义类型实现了接口？
 
@@ -165,3 +149,11 @@ Go 语言中的所有传递都是传值,函数接收到的永远都是参数的�
 #### [golang string和[]byte的对比](https://zboya.github.io/post/golang_byte_slice_and_string/)
 
 
+## References
+
+- [golang faq](https://learnku.com/go/wikis/38175)
+- [golang 常见面试题](https://zhuanlan.zhihu.com/p/471490292)
+- [CSP](https://zhuanlan.zhihu.com/p/313763247)
+-  [一文读懂什么是进程、线程、协程](https://www.cnblogs.com/Survivalist/p/11527949.html
+- [一文让你明白CPU上下文切换](https://zhuanlan.zhihu.com/p/52845869)
+- [深入理解Linux的CPU上下文切换](https://cloud.tencent.com/developer/article/1897179)

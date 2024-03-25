@@ -48,5 +48,6 @@ C编译出PHP扩展有两种形式
 现在，先让我们执行一下PHP源码根目录下的./configure --help命令。会发现输出信息并没有包含我们的扩展，这是因为这个configure脚本生成的时候，我们的扩展还没有编写呢。(这个configure是PHP官方分发的。)，所以首先我们需要使用buildconf命令生成新的configure脚本。 $ ./buildconf --force
 现在当我们再执行./configure --help的时候，便会发现myext扩展的信息已经出现了。现在我们只需要重新走一遍PHP的编译过程，便可以把我们的扩展以静态编译的方式加入到PHP主程序中了。哦，千万不要忘记使用--enable-myext参数开启我们的扩展。
 
-参考资料:
->https://github.com/walu/phpbook
+## References
+
+- [PHP扩展开发及内核应用](https://github.com/walu/phpbook)

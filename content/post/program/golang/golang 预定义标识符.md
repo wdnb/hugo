@@ -7,9 +7,6 @@ categories:
   - Program
 ---
 
- [Go's predeclared identifier](https://pkg.go.dev/builtin)
- [Predeclared identifiers](https://go.dev/ref/spec#Predeclared_identifiers)
-
 |                                            |            |                                                                                     |     |
 | ------------------------------------------ | ---------- | ----------------------------------------------------------------------------------- | --- |
 | Predeclared Identifiers                    | Type       | Explanation                                                                         |     |
@@ -57,3 +54,8 @@ categories:
 | uint32                                     | type       | Represents a 32-bit unsigned integer.                                               |     |
 | uint64                                     | type       | Represents a 64-bit unsigned integer.                                               |     |
 | uintptr                                    | type       | Represents an unsigned integer that represents a memory address.                    |     |
+
+## References
+
+- [Go's predeclared identifier](https://pkg.go.dev/builtin)
+- [Predeclared identifiers](https://go.dev/ref/spec#Predeclared_identifiers)

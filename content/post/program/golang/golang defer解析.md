@@ -120,7 +120,7 @@ func main() {
 ```
 
 
-## 参考资料
+## References
 
 * [Go 中的 defer 详解](https://giaogiaocat.github.io/go/defer/)
 * [Go 语言设计与实现](https://draveness.me/golang/docs/part2-foundation/ch05-keyword/golang-defer/)

@@ -40,8 +40,8 @@ Back to allocation. The built-in function `make(T,` _args_`)` serves a purpo
 
 内置函数 make(T, args) 的用途与 new(T) 不同。它只用于创建切片 (slice)、映射 (map) 和通道 (channel)，并且返回一个初始化的 (而非清零的) 类型 T 的值 (而非 \*T)。之所以要区分这两种函数，是因为这三种类型在底层表示对数据结构的引用，而这些数据结构在使用之前必须进行初始化。例如，slice是一个包含三个元素的描述符，其中包含指向数据 (位于数组内部) 的指针、长度和容量。在这些元素被初始化之前，切片都是 nil 值。对于slice, map, 和 channel，make 会初始化内部数据结构并使其可以被使用。
 
-## 参考资料
+## References
 
-[golang中new与make的区别](https://juejin.cn/post/7180326159027011639)  
-[new](https://go.dev/doc/effective_go.html#allocation_new)  
-[make](https://go.dev/doc/effective_go.html#allocation_make)  
+- [golang中new与make的区别](https://juejin.cn/post/7180326159027011639)
+- [new](https://go.dev/doc/effective_go.html#allocation_new)
+- [make](https://go.dev/doc/effective_go.html#allocation_make)

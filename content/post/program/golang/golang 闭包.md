@@ -78,6 +78,6 @@ for i := 0; i < len(dummy); {
 }
 f()
 ```
-## 参考资料
+## References
 
 * [Go 中的闭包](https://giaogiaocat.github.io/go/go-closure/)
