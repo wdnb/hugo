@@ -208,6 +208,12 @@ menu:
           params:
               icon: brand-github
 
+        - identifier: twitter
+          name: Twitter
+          url: https://twitter.com/O_GFW
+          params:
+              icon: brand-twitter
+
 related:
     includeNewer: true
     threshold: 60

@@ -2,7 +2,7 @@
 date: 2024-04-03T01:47:03+08:00
 tags:
   - note
-title: 人生的真谛
+title: 公共DNS
 categories:
   - Manual
 ---
