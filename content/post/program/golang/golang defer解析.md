@@ -34,7 +34,7 @@ func defer1() (res int) {
        res++  
     }()  
     return 0  
-}  
+}
 ```
 
 ```go  
@@ -45,7 +45,7 @@ func defer2() (res int) {
        res++  
     }()  
     return res  
-}  
+}
 ```
 
 ```go
@@ -56,7 +56,7 @@ func defer3() int {
        res++  
     }()  
     return res  
-}  
+}
   ```
 
 ```go
@@ -67,7 +67,7 @@ func defer4() (r int) {
        res++  
     }()  
     return res  
-}  
+}
 ```
 
 ```go
@@ -77,7 +77,7 @@ func defer5() (res int) { //命名返回值在函数开始时会被初始化为�
        res++  
     }(res)  
     return res  
-}  
+}
 ```
 
 ```go
