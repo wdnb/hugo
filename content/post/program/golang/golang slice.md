@@ -1,6 +1,6 @@
 ---
 title: golang slice
-date: 2024-07-245T15:27:00+08:00
+date: 2024-07-24T15:27:00+08:00
 tags:
   - golang
 categories:
