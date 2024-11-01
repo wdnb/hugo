@@ -2,8 +2,12 @@
 title: adguardhome
 categories:
   - Docker-Compose
-date: 2024-11-01T15:52:00Z
+date: 2024-11-01T17:38:24+0800
+tags:
 ---
+
+
+
 
 ```go
 version: "3.8"
