@@ -1,5 +1,5 @@
 ---
-date: 2022-04-25 00:00:00
+date: 2022-04-25T00:00:00Z
 tags:
   - mysql
 title: mysql 8.0.28配置

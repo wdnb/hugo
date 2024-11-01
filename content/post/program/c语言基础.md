@@ -1,6 +1,6 @@
 ---
 title: c语言基础
-date: 2015-06-13 18:57:22
+date: 2015-06-13T18:57:22Z
 tags:
   - c
 categories:

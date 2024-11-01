@@ -1,5 +1,5 @@
 ---
-date: 2020-07-30 00:25:00
+date: 2020-07-30T00:25:00Z
 tags:
   - mariadb
 title: mariadb安装

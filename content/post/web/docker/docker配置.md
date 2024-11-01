@@ -1,6 +1,6 @@
 ---
 title: docker配置
-date: 2020-07-25 16:01:22
+date: 2020-07-25T16:01:22Z
 tags:
   - docker
 categories:

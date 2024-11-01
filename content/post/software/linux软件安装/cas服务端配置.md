@@ -1,6 +1,6 @@
 ---
 title: cas服务端配置
-date: 2016-10-13 18:57:22
+date: 2016-10-13T18:57:22Z
 tags:
   - cas
 categories:

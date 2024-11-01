@@ -1,6 +1,6 @@
 ---
 title: pdo_oci oci8 pdo_pgsql扩展编译安装
-date: 2015-09-26 15:13:34
+date: 2015-09-26T15:13:34Z
 tags:
   - php
 categories:

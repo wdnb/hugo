@@ -1,5 +1,5 @@
 ---
-date: 2020-07-30 00:24:00
+date: 2020-07-30T00:24:00Z
 tags:
   - mariadb
 title: mariadb配置

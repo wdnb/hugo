@@ -1,5 +1,5 @@
 ---
-date: 2016-02-03 15:54:00
+date: 2016-02-03T15:54:00Z
 tags:
   - nginx
 title: nginx 配置 location 总结及 rewrite 规则写法

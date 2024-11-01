@@ -1,5 +1,5 @@
 ---
-date: 2016-02-20 16:28:00
+date: 2016-02-20T16:28:00Z
 tags:
   - php
 title: 使用php-fpm socket方式连接nginx

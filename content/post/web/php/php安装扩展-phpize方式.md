@@ -1,6 +1,6 @@
 ---
 title: php安装扩展_phpize方式
-date: 2015-09-26 15:07:58
+date: 2015-09-26T15:07:58Z
 tags:
   - php
 categories:

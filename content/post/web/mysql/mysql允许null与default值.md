@@ -1,6 +1,6 @@
 ---
 title: mysql允许null与default值
-date: 2015-06-13 19:14:49
+date: 2015-06-13T19:14:49Z
 tags:
   - mysql
 categories:

@@ -1,5 +1,5 @@
 ---
-date: 2015-06-13 19:15:00
+date: 2015-06-13T19:15:00Z
 tags:
   - sabma
 title: samba服务配置

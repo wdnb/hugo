@@ -1,5 +1,5 @@
 ---
-date: 2015-06-13 19:11:00
+date: 2015-06-13T19:11:00Z
 tags:
   - command
 title: git指令

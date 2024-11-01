@@ -1,6 +1,6 @@
 ---
 title: linux常用指令
-date: 2015-06-13 19:08:42
+date: 2015-06-13T19:08:42Z
 tags:
   - command
 categories:

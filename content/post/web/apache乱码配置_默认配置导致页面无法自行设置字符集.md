@@ -1,6 +1,6 @@
 ---
 title: apache乱码配置_默认配置导致页面无法自行设置字符集
-date: 2015-06-13 19:17:46
+date: 2015-06-13T19:17:46Z
 tags:
   - apache
 categories:

@@ -1,6 +1,6 @@
 ---
 title: vim常用指令
-date: 2015-06-13 19:19:15
+date: 2015-06-13T19:19:15Z
 tags:
   - vim
 categories:

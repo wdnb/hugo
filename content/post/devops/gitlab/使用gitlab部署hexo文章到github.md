@@ -1,6 +1,6 @@
 ---
 title: 使用gitlab部署hexo文章到github
-date: 2020-07-18 22:37:22
+date: 2020-07-18T22:37:22Z
 tags:
   - gitlab
   - 树莓派

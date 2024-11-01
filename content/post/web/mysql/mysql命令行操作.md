@@ -1,5 +1,5 @@
 ---
-date: 2015-06-13 19:16:00
+date: 2015-06-13T19:16:00Z
 tags:
   - mysql
 title: mysql命令行操作

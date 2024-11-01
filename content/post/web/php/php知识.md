@@ -1,6 +1,6 @@
 ---
 title: php知识
-date: 2016-09-03 15:13:36
+date: 2016-09-03T15:13:36Z
 tags:
   - php
 categories:

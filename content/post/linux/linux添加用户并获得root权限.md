@@ -1,5 +1,5 @@
 ---
-date: 2016-09-03 15:23:00
+date: 2016-09-03T15:23:00Z
 tags:
   - command
 title: linux添加用户并获得root权限

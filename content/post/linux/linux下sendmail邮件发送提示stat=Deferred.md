@@ -1,5 +1,5 @@
 ---
-date: 2016-07-26 11:16:00
+date: 2016-07-26T11:16:00Z
 tags:
   - sendmail
 title: linux下sendmail邮件发送提示stat=Deferred

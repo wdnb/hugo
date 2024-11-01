@@ -1,6 +1,6 @@
 ---
 title: nfs环境搭建
-date: 2015-06-14 14:20:59
+date: 2015-06-14T14:20:59Z
 tags:
   - nfs
 categories:

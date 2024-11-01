@@ -1,6 +1,6 @@
 ---
 title: hexo通过GitHub Pages建立站点
-date: 2015-06-13 21:31:40
+date: 2015-06-13T21:31:40Z
 tags:
   - hexo
 categories:

@@ -1,6 +1,6 @@
 ---
 title: centos安装nodejs
-date: 2015-06-13 17:30:51
+date: 2015-06-13T17:30:51Z
 tags:
   - node
 categories:

@@ -2,7 +2,7 @@
 tags:
   - gcc
 title: 自行编译GCC
-date: 2016-02-03 16:32:00
+date: 2016-02-03T16:32:00Z
 categories:
   - Software
 ---

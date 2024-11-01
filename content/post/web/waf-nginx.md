@@ -1,5 +1,5 @@
 ---
-date: 2016-02-20 16:30:00
+date: 2016-02-20T16:30:00Z
 tags:
   - nginx
 title: waf-nginx

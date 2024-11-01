@@ -1,6 +1,6 @@
 ---
 title: 在 GitLab 项目中使用 k3s Kubernetes 集群
-date: 2020-07-28 23:37:22
+date: 2020-07-28T23:37:22Z
 tags:
   - gitlab
   - 树莓派

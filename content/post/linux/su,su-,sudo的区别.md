@@ -1,5 +1,5 @@
 ---
-date: 2016-02-03 16:06:00
+date: 2016-02-03T16:06:00Z
 tags:
   - command
 title: su,su -,sudo的区别

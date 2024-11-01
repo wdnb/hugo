@@ -1,6 +1,6 @@
 ---
 title: 树莓派 arm docker部署 gitlab gitlab-runner
-date: 2020-07-18 22:37:22
+date: 2020-07-18T22:37:22Z
 tags:
   - gitlab
   - 树莓派

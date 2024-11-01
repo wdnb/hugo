@@ -1,6 +1,6 @@
 ---
 title: linux配置ip及路由表
-date: 2019-03-02 22:14:46
+date: 2019-03-02T22:14:46Z
 tags:
   - command
 categories:

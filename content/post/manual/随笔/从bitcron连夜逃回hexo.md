@@ -1,6 +1,6 @@
 ---
 title: 从bitcron连夜逃回hexo
-date: 2019-03-02 18:18:56
+date: 2019-03-02T18:18:56Z
 tags:
   - note
 categories:

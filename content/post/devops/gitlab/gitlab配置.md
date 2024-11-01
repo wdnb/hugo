@@ -1,6 +1,6 @@
 ---
 title: gitlab配置
-date: 2020-07-19 18:37:22
+date: 2020-07-19T18:37:22Z
 tags:
   - gitlab
   - 树莓派

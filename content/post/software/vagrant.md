@@ -1,5 +1,5 @@
 ---
-date: 2016-09-03 15:20:00
+date: 2016-09-03T15:20:00Z
 tags:
   - vagrant
 title: vagrant

@@ -1,6 +1,6 @@
 ---
 title: EmbedSky交叉编译
-date: 2015-06-14 13:50:38
+date: 2015-06-14T13:50:38Z
 tags:
   - EmbedSky
 categories:

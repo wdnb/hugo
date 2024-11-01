@@ -1,6 +1,6 @@
 ---
 title: rsync配置
-date: 2015-06-13 19:09:47
+date: 2015-06-13T19:09:47Z
 tags:
   - rsync
 categories:
