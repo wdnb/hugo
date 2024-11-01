@@ -1,6 +1,5 @@
 ---
 title: adguardhome
-tags: 
 categories:
   - Docker-Compose
 date: 2024-11-01T15:52:00Z
