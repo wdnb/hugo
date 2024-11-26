@@ -1,8 +1,10 @@
 ---
 title: 自建Docker Hub加速镜像
 date: 2024-11-26T17:45:18+0800
-tags: 
+tags:
+  - docker
 categories:
+  - Web
 ---
 # 自建 Docker Hub 加速镜像
 
