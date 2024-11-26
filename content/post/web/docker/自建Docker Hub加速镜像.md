@@ -11,25 +11,25 @@ categories:
 ### 登录cloudflare
 https://dash.cloudflare.com/
 ### 选择Workers 和 Pages功能
-[upl-image-preview uuid=c19405ee-1146-4b12-a354-8e3e53239364 url=https://img.jbface.com/2024-11-26/1732616313-893334-20241126181004.png alt={TEXT?}]
+https://img.jbface.com/2024-11-26/1732616313-893334-20241126181004.png
 ### 点击创建
-[upl-image-preview uuid=0e4a4e25-c7af-4b4b-83d3-d1ed5b23a0a3 url=https://img.jbface.com/2024-11-26/1732616308-681244-27cdbc647ebcacfa58a29c6970c7605.png alt={TEXT?}]
+https://img.jbface.com/2024-11-26/1732616308-681244-27cdbc647ebcacfa58a29c6970c7605.png
 ### 点击创建Worker
-[upl-image-preview uuid=7be98620-6e8e-43ca-8bfd-6cf3571e0c91 url=https://img.jbface.com/2024-11-26/1732616305-624971-7b1c9fe965a576e5301b91318989ca5.png alt={TEXT?}]
+https://img.jbface.com/2024-11-26/1732616305-624971-7b1c9fe965a576e5301b91318989ca5.png
 ### 点击部署 名字随便起 
-[upl-image-preview uuid=79d6783b-ca3f-477c-8c84-229e6f9a3ef9 url=https://img.jbface.com/2024-11-26/1732616304-551109-07d323a2a8fefcc2e0c5d4c574f642c.png alt={TEXT?}]
+https://img.jbface.com/2024-11-26/1732616304-551109-07d323a2a8fefcc2e0c5d4c574f642c.png
 ### 点击编辑代码 复制下面_worker.js 的内容,并且修改DOMAIN.com为你自己的域名
-[upl-image-preview uuid=20642601-70cc-4830-a09b-491ff408caf5 url=https://img.jbface.com/2024-11-26/1732616311-623102-507e8c785be343e2e004791c6df57f1.png alt={TEXT?}]
+https://img.jbface.com/2024-11-26/1732616311-623102-507e8c785be343e2e004791c6df57f1.png
 ### 黏贴好后点击部署
-[upl-image-preview uuid=6107ed7f-844e-404d-8ddc-b351a17d91e3 url=https://img.jbface.com/2024-11-26/1732617064-427454-20241126183016.png alt={TEXT?}]
+https://img.jbface.com/2024-11-26/1732617064-427454-20241126183016.png
 ### 返回上级进入设置点击添加选择自定义域
-[upl-image-preview uuid=784c9c2a-78ee-41ac-81ab-647baa1a6c6b url=https://img.jbface.com/2024-11-26/1732616309-956077-71cb0fd43afda2ea5141a3770393454.png alt={TEXT?}]
-[upl-image-preview uuid=5ff5ddba-c7ed-4c83-997c-339732ce8605 url=https://img.jbface.com/2024-11-26/1732616306-247210-7b84ebd6be2b131df06538e4ed9ae3e.png alt={TEXT?}]
-[upl-image-preview uuid=08dcee2a-e484-4d81-849e-15f1547c4bdc url=https://img.jbface.com/2024-11-26/1732617334-198524-20241126183016.png alt={TEXT?}]
+https://img.jbface.com/2024-11-26/1732616309-956077-71cb0fd43afda2ea5141a3770393454.png
+https://img.jbface.com/2024-11-26/1732616306-247210-7b84ebd6be2b131df06538e4ed9ae3e.png
+https://img.jbface.com/2024-11-26/1732617334-198524-20241126183016.png
 ### 在自定义域里填入你自己的域名,我这里用的是二级域名,添加完成后Cloudflare会自动给你添加一条类型为Worker的dns记录,这里等dns解析完毕就行
-[upl-image-preview uuid=7d42f18c-62a1-436b-9894-11e76985ecb3 url=https://img.jbface.com/2024-11-26/1732616303-280866-3f91da8970ea67a82bbc14a856025c3.png alt={TEXT?}]
+https://img.jbface.com/2024-11-26/1732616303-280866-3f91da8970ea67a82bbc14a856025c3.png
 ### 在自己需要使用加速镜像的地方填入你自己在自定义域里配置的域名
-[upl-image-preview uuid=abf67d2d-942b-46c0-aacd-d988cfb7e327 url=https://img.jbface.com/2024-11-26/1732617520-508038-20241126183016.png alt={TEXT?}]
+https://img.jbface.com/2024-11-26/1732617520-508038-20241126183016.png
 ### 最后不要忘了给我们的赛博佛祖cloudflare磕一个🙇🙇🙇
 
 ## _worker.js
